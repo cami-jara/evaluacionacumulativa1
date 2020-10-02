@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+}
+body{
+    background: url("img/portada.jpg");
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+   font-family: Arial, Helvetica, sans-serif;
+}
