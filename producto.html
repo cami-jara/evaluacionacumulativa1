@@ -7,56 +7,46 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-
+    <!--Font family-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
     <title>Proyecto Semestral</title>
   </head>
   <body>
 
    <header>
-    <nav class="navbar navbar-default navbar-trans navbar-expand-lg bg-dark navbar-dark  fixed-top">
-      <div class="container">
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-          aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
         <a class="navbar-brand text-brand" href="index.html"> <img src="logo/logo.png" alt="" width="200" height="100" class="d-inline-block align-top"></a>
-        <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
-          data-target="#navbarTogglerDemo01" aria-expanded="false">
-          <span class="fa fa-search" aria-hidden="true"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Inicio</a>
+              <a class="nav-link active" href="index.html"><span class="sr-only">Inicio</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="servicio.html">Servicio</a>
+              <a class="nav-link" href="servicio.html"><span class="sr-only">Quienes Somos</span></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="producto.html">
-                Producto
+              <a class="nav-link" href="producto.html">
+                <span class="sr-only">Nuestras Propiedades</span>
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Casas</a>
-                <a class="dropdown-item" href="#">Departamentos</a>
-                <a class="dropdown-item" href="#">Oficinas</a>
-                <a class="dropdown-item" href="#">Agent Single</a>
-              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
+              <a class="nav-link" href="contacto.html"><span class="sr-only">Contacto</span></a>
             </li>
           </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-        
-        <form class="d-flex p-1">
-          <input class="form-control mr-3 col-8" type="search" placeholder="Buscar" aria-label="Buscar">
-          <button class="btn btn-block btn-primary" type="submit">Buscar</button>
-        </form>
       </div>
     </nav>
+
     </header>
 
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
