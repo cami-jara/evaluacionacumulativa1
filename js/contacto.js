@@ -30,13 +30,12 @@ $("#enviar-btn").click(function(){
       contacto.numero = numero;
       contacto.mensaje = mensaje;
 
-      Swal.fire({
+     Swal.fire({
          title: "Formulario enviado",
          text: "Mensaje fue enviado exitosamente.",
          icon: "success",
-        });
-
-      }else {
+       });
+      } else {
         Swal.fire({
         title: "Formulario no enviado",
         text: "Por favor complete todos los campos.",
