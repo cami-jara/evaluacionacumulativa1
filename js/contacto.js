@@ -2,11 +2,11 @@ $("#enviar-btn").click(function(){
   let mensajes = $("#mensajes");
   let errores = [];
 
-  let nombre = $("#nombre-txt").val;
-  let apellido = $("#apellido-txt").val;
-  let correo = $("#correo-txt").val;
-  let numero = $("#numero-txt").val;
-  let mensaje = $("mensaje-txt").val;
+  let nombre = $("#nombre-txt").val();
+  let apellido = $("#apellido-txt").val();
+  let correo = $("#correo-txt").val();
+  let numero = $("#numero-txt").val();
+  let mensaje = $("mensaje-txt").val();
   if (nombre == '') {
     errores.push("Debe ingresar Nombre.");
   }
