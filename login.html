@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!--Google Singin -->
+    <meta name = "google-signin-client_id" content = "501804933970-spga90hlajn24tb33fkhng4nrg1p4dg9.apps.googleusercontent.com">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <!--Font family-->
@@ -36,11 +38,11 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contacto.html"><span class="sr-only">Contacto</span></a>
+              <a class="nav-link" href="contacto.html"><span class="sr-only">Contacto</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html"><span class="sr-only">Login</span></a>
-            </li>
+                <a class="nav-link active" href="login.html"><span class="sr-only">Login</span></a>
+              </li>
           </ul>
           <form class="d-flex">
             <input class="form-control mr-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
@@ -51,96 +53,41 @@
     </nav>
 
     </header>
-
+     
     <div class="col-12 ">
-      <h1 class="text-center bg-primary text-white"><b>Contacto</b></h1>
+      <h1 class="text-center bg-primary text-white"><b>Login</b></h1>
   </div>
-
-
-
-      <section>
-          <div class="row g-0">
-             <div class="col-lg-7">
-               <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                 <ol class="carousel-indicators">
-                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                   <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                 </ol>
-                 <div class="carousel-inner">
-                   <div class="carousel-item img-1 min-vh-100 active">
-                     <img src="img/contacto.jpg" class="d-block w-100" witdh="200px" height="700px">
-                     <div class="carousel-caption d-none d-md-block">
-                       <h2 class="font-weigth-bold"><h3 class="text-center"><b>María José Torres Alvarez </b></h3>
-                         <h4 class="text-center"><cite>Corredora de Propiedades</cite></h4>
-                           <h5 class="text-center"><small class="text-muted">+569 84120574</small></h5>
-                            <p class="text-center text-muted">Info@corredoraareapropiedades.cl</p></h2>
-                       <a href="#" class="text-muted text-decoration-none">Visita nuestra corredora.</a>
-                         <br>
-                     </div>
-                   </div>
-                   <div class="carousel-item img-2 min-vh-100">
-                     <img src="img/casaventa4.jpg" class="d-block w-100" witdh="200px" height="700px">
-                     <div class="carousel-caption d-none d-md-block">
-                       <h2 class="font-weigth-bold">Confía en el que más Vende</h2>
-                       <a href="#" class="text-muted text-decoration-none">Déjanos tu propiedad.</a>
-                     </div>
-                   </div>
-                 </div>
-                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-                 </a>
-                 <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-                 </a>
-               </div>
-             </div>
-
-             <div class="col-lg-5 d-flex flex-column align-items-end min-vh-100">
-                <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
-                  <h1 class="font-weight-bold mb-4 text-dark">Contáctenos</h1>
-
-                  <hr>
-
-                  <form class="mb-4">
-                    <div id="mensajes">
-
-                     <div class="mb-2 form-group">
-                        <label for="nombre-txt" class="form-label font-weight-bold">Nombre</label>
-                         <input type="text" id="nombre-txt" placeholder="Escribe su Nombre" class="form-control bg-dark-x border-0">
-                    </div>
-                   <div class="mb-2 form-group">
-                      <label for="apellido-txt" class="form-label font-weight-bold">Apellido</label>
-                       <input type="text" id="apellido-txt" placeholder="Escribe su Apellido" class="form-control bg-dark-x border-0">
-                  </div>
-                  <div class="mb-2 form-group">
-                     <label for="correo-txt" class="form-label font-weight-bold">Correo Electrónico</label>
-                      <input type="text" id="correo-txt" placeholder="Escribe su Correo Electrónico" class="form-control bg-dark-x border-0">
-                 </div>
-                 <div class="mb-2 form-group">
-                    <label for="numero-txt" class="form-label font-weight-bold">Número de Teléfono</label>
-                     <input type="number" id="numero-txt" placeholder="Escribe su Número de Celular o Teléfono Fijo" class="form-control bg-dark-x border-0">
-                </div>
-                <div class="mb-2 form-group">
-                   <label for="mensaje-txt" class="form-label font-weight-bold">Mensaje</label>
-                   <textarea type="text" class="form-control bg-dark-x border-0" id="mensaje-txt" placeholder="Escribe el Mensaje" rows="8" cols="80"></textarea>
-               </div>
-               <button type="button" class="btn btn-success float-center w-100" id="enviar-btn">Enviar</button>
-               </div>
-</form>
-  </section>
-
-
-      <div class="container-fluid ">
-      <h2 class="text-center text-dark p-2"><b>Encuentranos en esta ubicación</b></h2>
-        <div class="row justify-content-center">
-          <div class="col-12" style="width:100%">
-            <div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.950880459676!2d-71.38458898510464!3d-33.05775998485104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689d8275b1025bb%3A0xc45f9236bd9d1cd7!2sSan%20Jos%C3%A9%2C%20Villa%20Alemana%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1602275234447!5m2!1ses!2scl" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
+   
+   <div class="row mt-5">
+     <div class="col-lg-6 mx-auto">
+       <div class="card-header bg-dark bg-gradient text-white">
+           <h4 class="form-label font-weight-bold">Iniciar sesión</h4>
+          </div>
+       <div class="card-body">
+         <form action="form" id="form">
+          <div class="mb-2 form-group">
+            <label for="username" class="form-label font-weight-bold">Nombre de usuario</label>
+            <input type="text" id="username" class="form-control" placeholder="Ingrese usuario:">
         </div>
+        <div class="mb-2 form-group">
+          <label for="password" class="form-label font-weight-bold">Contraseña</label>
+          <input type="password" class="form-control" id="password" placeholder="Ingrese contraseña">
       </div>
+
+        <button type="button" class="btn btn-outline-success float-center">Iniciar sesión</button>
+      </form>
+         
+    
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        
+        
+        <div id="status">
+        </div>
+        <a href="#" id="login" class="btn btn-primary" >Iniciar sesión con facebook</a>
+       </div>
+     </div>
+   </div>
+
 
 
           <footer>
@@ -185,16 +132,31 @@
           </div>
         </div>
           </footer>
+     <script>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+(function(d, s, id) {
+	    var js, fjs = d.getElementsByTagName(s)[0];
+	    if (d.getElementById(id)) return;
+	    js = d.createElement(s); js.id = id;
+	    js.src = "//connect.facebook.net/en_US/sdk.js";
+	    fjs.parentNode.insertBefore(js, fjs);
+	  }(document, 'script', 'facebook-jssdk'));
 
+     </script>
     <script src="js/init.js"></script>
     <script src="vendor/tinymce/tinymce.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
     <script src="vendor/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
     <script src="js/contacto.js"></script>
+    <script src="js/facebook.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/nav.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 
