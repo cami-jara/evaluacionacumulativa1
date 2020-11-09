@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Google Singin -->
-    <meta name = "google-signin-client_id" content = "501804933970-spga90hlajn24tb33fkhng4nrg1p4dg9.apps.googleusercontent.com">
+    <meta name = "google-signin-client_id" content = "501804933970-bi87ubp3nnqe5c0gjbmnv6t4cl3j71nh.apps.googleusercontent.com">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <!--Font family-->
@@ -15,7 +15,7 @@
 
     <title>Proyecto Semestral</title>
   </head>
-  <body class="bg-white">
+  <body class="bg-light">
 
    <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -77,13 +77,14 @@
         <button type="button" class="btn btn-outline-success float-center">Iniciar sesión</button>
       </form>
          
-    
-          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
+    <div class="card-footer bg-light">
+      <div class="g-signin2" data-onsuccess="onSignIn" style="size: 5em; margin: 20px; margin-left: 50px;"></div>
         
         
         <div id="status">
         </div>
-        <a href="#" id="login" class="btn btn-primary" >Iniciar sesión con facebook</a>
+        <a href="#" id="login" class="btn btn-primary" style="margin: 20px; margin-left: 500px; margin-top: -60px;" >Iniciar sesión con facebook</a>
        </div>
      </div>
    </div>
@@ -155,6 +156,7 @@
 
     <script src="js/contacto.js"></script>
     <script src="js/facebook.js"></script>
+    <script src="js/google.js"></script>
     <script src="js/login.js"></script>
     <script src="js/nav.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper.js -->
