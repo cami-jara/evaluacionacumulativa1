@@ -154,3 +154,13 @@ html, body{
   text-align:center;
   margin-top:-300px;
   }
+
+  /*Boton-margin*/
+  .boton-margin{
+    margin: 15px;
+  }
+
+  .g-signin2{
+    margin-left: 450px;
+    margin-top: -50px;
+  }
