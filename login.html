@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Google Singin -->
-    <meta name = "google-signin-client_id" content = "501804933970-bi87ubp3nnqe5c0gjbmnv6t4cl3j71nh.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="501804933970-bi87ubp3nnqe5c0gjbmnv6t4cl3j71nh.apps.googleusercontent.com">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <!--Font family-->
@@ -84,7 +84,9 @@
 
                   <hr> 
 
-                <div class="fb-login-button" data-size="medium" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width="" ></div>
+                <!-- <div class="fb-login-button" data-size="medium" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width="" ></div> -->
+                <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+                </fb:login-button>
 
                 <p class="text-center" style="size: 5em; margin: 20px; margin-left: 15px; margin-top: -20px;">O</p>
 
@@ -146,6 +148,7 @@
           
           
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js"></script>
     <script src="js/init.js"></script>
     <script src="vendor/tinymce/tinymce.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
@@ -166,6 +169,6 @@
     <!-- Option 2: Separate Popper.js and Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0&appId=441669700153077&autoLogAppEvents=1" nonce="lmnEH6ww"></script>
+    <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0&appId=441669700153077&autoLogAppEvents=1" nonce="lmnEH6ww"></script> -->
   </body>
 </html>
